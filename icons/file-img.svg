@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <!-- Image: purple photo frame with landscape -->
+  <rect x="2" y="3" width="20" height="18" rx="2.5" fill="#9060a8"/>
+  <!-- Inner photo area -->
+  <rect x="4" y="5" width="16" height="14" rx="1.5" fill="#7848a0"/>
+  <!-- Sky gradient top -->
+  <rect x="4" y="5" width="16" height="7" rx="1.5" fill="#9060b8"/>
+  <!-- Sun circle -->
+  <circle cx="16" cy="9" r="2.5" fill="#e8c8f0"/>
+  <!-- Mountain shapes -->
+  <polygon points="4,19 9,11 14,17 17,13 20,19" fill="#5a3070"/>
+</svg>

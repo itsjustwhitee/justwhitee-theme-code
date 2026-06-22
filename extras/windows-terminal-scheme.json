@@ -1,0 +1,26 @@
+{
+  "name": "justwhitee Dark",
+
+  "background":   "#090D0D",
+  "foreground":   "#DBD8C6",
+  "selectionBackground": "#192626",
+  "cursorColor":  "#3A9890",
+
+  "black":        "#182424",
+  "red":          "#CC4848",
+  "green":        "#72C85A",
+  "yellow":       "#D4B45A",
+  "blue":         "#3A9890",
+  "purple":       "#8878D8",
+  "cyan":         "#56B0A8",
+  "white":        "#DBD8C6",
+
+  "brightBlack":  "#324444",
+  "brightRed":    "#E85050",
+  "brightGreen":  "#8ED870",
+  "brightYellow": "#E4CC60",
+  "brightBlue":   "#56B0A8",
+  "brightPurple": "#C898D0",
+  "brightCyan":   "#74C4BC",
+  "brightWhite":  "#ECE8D8"
+}

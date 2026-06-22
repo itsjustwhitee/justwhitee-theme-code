@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <!-- Vue.js: nested V triangles (outer green, inner dark teal) -->
+  <polygon points="2,3 22,3 12,22" fill="#42b883"/>
+  <polygon points="6.5,3 17.5,3 12,13" fill="#35495e"/>
+</svg>

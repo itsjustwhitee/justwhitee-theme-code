@@ -1,0 +1,47 @@
+{
+  "name": "justwhitee-theme",
+  "displayName": "justwhitee Dark",
+  "description": "Deep dark theme with aqua accents, warm readability, and balanced saturation. Yellow functions, green strings, aqua keywords — no purple.",
+  "version": "0.1.0",
+  "publisher": "justwhitee",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": ["Themes"],
+  "keywords": [
+    "dark",
+    "aqua",
+    "teal",
+    "green",
+    "yellow",
+    "gruvbox",
+    "neon",
+    "readability"
+  ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#0e1313",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "justwhitee Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/justwhitee-color-theme.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "justwhitee-icons",
+        "label": "justwhitee Icons",
+        "path": "./justwhitee-icon-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itsjustwhitee/justwhitee-theme-code"
+  },
+  "license": "MIT"
+}

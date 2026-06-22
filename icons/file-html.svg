@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <!-- HTML5: orange shield/badge pointing down -->
+  <path d="M3 2h18L19.5 18 12 22 4.5 18 3 2z" fill="#e34f26"/>
+  <!-- Right half slightly lighter -->
+  <path d="M12 2h9L19.5 18 12 22V2z" fill="#ef6140"/>
+  <!-- HTML angle bracket hint -->
+  <path d="M9 10l-2.5 2 2.5 2M15 10l2.5 2-2.5 2" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

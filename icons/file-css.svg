@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <!-- CSS3: blue shield/badge pointing down -->
+  <path d="M3 2h18L19.5 18 12 22 4.5 18 3 2z" fill="#1572b6"/>
+  <path d="M12 2h9L19.5 18 12 22V2z" fill="#2590d0"/>
+  <!-- CSS dot/hash hint -->
+  <path d="M8 9h8M8 12h8M8 15h5" stroke="white" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+</svg>
