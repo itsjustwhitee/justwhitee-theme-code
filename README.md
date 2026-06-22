@@ -6,114 +6,121 @@ A handcrafted VS Code dark theme with petrol/cyan accents, warm readable text, a
 
 ---
 
-## Color palette
-
-| Role | Color | Hex |
-|---|---|---|
-| Background | near-black teal | `#0e1313` |
-| Main text | warm near-white | `#dbd8c6` |
-| Control flow (`if` / `for` / `while`) | petrol | `#3a9890` |
-| Declarations (`var` / `let` / `fn`) | light petrol | `#56b0a8` |
-| Type-def keywords (`class` / `enum`) | petrol | `#3a9890` |
-| Import keywords (`import` / `from`) | blue-violet | `#8878d8` |
-| Exit / jump (`return` / `raise`) | vivid red | `#dd2d4a` |
-| Function names | amber | `#e0b44a` |
-| Built-in functions | warm orange italic | `#d4985a` |
-| Strings | soft green | `#8acc7c` |
-| Template / interpolated strings | aqua-green | `#5cc4a8` |
-| Numbers | burnt orange | `#ca6702` |
-| Constants / booleans / null | bright yellow | `#e4cc60` |
-| Class / type / interface names | rose-magenta | `#c04878` |
-| Enum names | amber-gold | `#d4a030` |
-| Type parameters `<T>` | pale seafoam | `#94d2bd` |
-| Namespace / module names | pale teal | `#8cccc0` |
-| Parameters | warm khaki | `#c8b890` |
-| Properties / fields | muted aqua-green | `#8ecab8` |
-| Decorators / annotations | rose | `#c47888` |
-| Comments | muted petrol italic | `#486860` |
-
----
-
-## Terminal palette (ANSI 16 colors)
-
-| Slot | Name | Hex | Theme role |
-|---|---|---|---|
-| 0 | Black | `#182424` | dark background |
-| 1 | Red | `#cc4848` | errors / return |
-| 2 | Green | `#72c85a` | strings / ok |
-| 3 | Yellow | `#d4b45a` | functions |
-| 4 | Blue | `#3a9890` | keywords / accent |
-| 5 | Magenta | `#8878d8` | import keywords |
-| 6 | Cyan | `#56b0a8` | declarations |
-| 7 | White | `#dbd8c6` | main text |
-| 8 | Bright Black | `#324444` | comments |
-| 9 | Bright Red | `#e85050` | bright errors |
-| 10 | Bright Green | `#8ed870` | bright strings |
-| 11 | Bright Yellow | `#e4cc60` | constants |
-| 12 | Bright Blue | `#56b0a8` | bright accent |
-| 13 | Bright Magenta | `#c898d0` | decorators |
-| 14 | Bright Cyan | `#74c4bc` | type params |
-| 15 | Bright White | `#ece8d8` | bold text |
-
----
-
 ## Installation
 
-### VS Code (local dev)
+**From the Marketplace** (recommended):
+1. Open VS Code
+2. `Ctrl+Shift+X` → search **justwhitee Dark**
+3. Click **Install**
 
-```bash
-ln -s /path/to/justwhitee-theme ~/.vscode/extensions/justwhitee-theme
-```
+**Activate the theme:**
+- `Ctrl+Shift+P` → **Preferences: Color Theme** → `justwhitee Dark`
+- For icons: **Preferences: File Icon Theme** → `justwhitee Icons`
 
-Restart VS Code → `Ctrl+Shift+P` → **Preferences: Color Theme** → `justwhitee Dark`  
-For icons: **Preferences: File Icon Theme** → `justwhitee Icons`
-
-### VS Code (package & install on another machine)
-
-```bash
-npm install -g @vscode/vsce
-vsce package          # → justwhitee-theme-x.x.x.vsix
-```
-
-Install the `.vsix` via **Extensions → Install from VSIX…** or:
-
+**From a `.vsix` file:**
 ```bash
 code --install-extension justwhitee-theme-x.x.x.vsix
 ```
+Or go to **Extensions → ⋯ → Install from VSIX…**
 
-> **Settings Sync note:** Sync uploads your settings (including the theme name) but not local extension files. Install the `.vsix` manually on each machine, or publish to the Marketplace.
+---
 
-### Ptyxis terminal (Ubuntu 24.04+)
+## What's included
+
+- **Color theme** — `justwhitee Dark` with carefully chosen syntax colors across all major languages
+- **Icon theme** — `justwhitee Icons` with a matching file/folder icon set
+- **Terminal palette** — matching ANSI 16-color palette for VS Code's integrated terminal, Ptyxis, and Windows Terminal
+
+---
+
+## Color reference
+
+| Role | Hex |
+|---|---|
+| Background | `#0e1313` |
+| Main text | `#dbd8c6` |
+| Comments | `#486860` |
+| Strings | `#8acc7c` |
+| Template / interpolated strings | `#5cc4a8` |
+| Numbers | `#ca6702` |
+| Constants / booleans / null | `#e4cc60` |
+| Function names | `#e0b44a` |
+| Built-in functions | `#d4985a` |
+| Control flow (`if` / `for` / `while`) | `#3a9890` |
+| Declarations (`var` / `let` / `fn`) | `#56b0a8` |
+| Type-def keywords (`class` / `enum`) | `#3a9890` |
+| Import keywords (`import` / `from`) | `#8878d8` |
+| Exit / jump (`return` / `raise`) | `#dd2d4a` |
+| Class / type / interface names | `#c04878` |
+| Enum names | `#d4a030` |
+| Type parameters `<T>` | `#94d2bd` |
+| Namespace / module names | `#8cccc0` |
+| Parameters | `#c8b890` |
+| Properties / fields | `#8ecab8` |
+| Decorators / annotations | `#c47888` |
+
+---
+
+## Terminal palette
+
+The theme ships with matching terminal colors for the VS Code integrated terminal, Ptyxis, and Windows Terminal.
+
+| # | Name | Hex |
+|---|---|---|
+| 0 | Black | `#182424` |
+| 1 | Red | `#cc4848` |
+| 2 | Green | `#72c85a` |
+| 3 | Yellow | `#d4b45a` |
+| 4 | Blue | `#3a9890` |
+| 5 | Magenta | `#8878d8` |
+| 6 | Cyan | `#56b0a8` |
+| 7 | White | `#dbd8c6` |
+| 8 | Bright Black | `#324444` |
+| 9 | Bright Red | `#e85050` |
+| 10 | Bright Green | `#8ed870` |
+| 11 | Bright Yellow | `#e4cc60` |
+| 12 | Bright Blue | `#56b0a8` |
+| 13 | Bright Magenta | `#c898d0` |
+| 14 | Bright Cyan | `#74c4bc` |
+| 15 | Bright White | `#ece8d8` |
+
+### Ptyxis (Ubuntu 24.04+)
 
 ```bash
 ptyxis --import-palette extras/justwhitee-dark.palette
 ```
 
-Then restart Ptyxis → right-click → **Preferences** → your profile → **Palette** → select **justwhitee Dark**.
+Restart Ptyxis → right-click → **Preferences** → your profile → **Palette** → select **justwhitee Dark**.
 
 ### Windows Terminal
 
-Open Windows Terminal settings (`Ctrl+,` → **Open JSON file**) and add the contents of `extras/windows-terminal-scheme.json` into the `"schemes"` array:
-
-```json
-"schemes": [
-    { ...existing schemes... },
-    { paste contents of windows-terminal-scheme.json here }
-]
-```
-
-Then set it on your profile:
+Open settings (`Ctrl+,` → **Open JSON file**) and merge the contents of `extras/windows-terminal-scheme.json` into the `"schemes"` array, then set it on your profile:
 
 ```json
 "colorScheme": "justwhitee Dark"
 ```
 
----
-
-## Test the terminal colors
-
-After applying the palette, run the included test script to see all 16 colors, text styles, and a simulated code snippet:
+### Test the colors
 
 ```bash
 bash extras/test-colors.sh
 ```
+
+Prints all 16 ANSI colors, text styles, and a simulated code snippet so you can verify the palette at a glance.
+
+---
+
+## Building from source
+
+```bash
+npm install -g @vscode/vsce
+vsce package   # produces justwhitee-theme-x.x.x.vsix
+```
+
+> **Settings Sync note:** Sync uploads your settings (including the active theme name) but not local extension files. Install the `.vsix` manually on each machine, or use the Marketplace version so Sync picks it up automatically.
+
+---
+
+## License
+
+[MIT](LICENSE.md)
