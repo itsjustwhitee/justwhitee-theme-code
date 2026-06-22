@@ -2,7 +2,6 @@
 .gitignore
 **/*.md
 !README.md
-!LICENSE.md
 extras/**
 node_modules/**
 .git/**
