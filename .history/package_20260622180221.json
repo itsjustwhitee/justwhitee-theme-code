@@ -2,7 +2,7 @@
   "name": "justwhitee-theme",
   "displayName": "justwhitee Dark",
   "description": "Deep dark theme with aqua accents, warm readability, and balanced saturation. Yellow functions, green strings, aqua keywords.",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "publisher": "justwhitee",
   "engines": {
     "vscode": "^1.70.0"
